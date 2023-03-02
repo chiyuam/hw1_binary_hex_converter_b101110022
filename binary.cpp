@@ -18,7 +18,7 @@ int main(){
     for(int j = current_number -1 ;j >= 0; j--){
         cout << index[j];
     }
-    cout << endl;
+    cout <<" "<<"This is the result of binary numbering"<< endl;
     //第21行到第行為轉為16進位的程式碼
     string hexadecimal;
     int current_state; 
@@ -34,6 +34,6 @@ int main(){
         Input_b /= 16;
     }
     reverse(hexadecimal.begin(), hexadecimal.end());
-    cout << hexadecimal; 
+    cout << hexadecimal <<" "<< " This is the result of hexadecimal numbering. "; 
     return 0;
 }
